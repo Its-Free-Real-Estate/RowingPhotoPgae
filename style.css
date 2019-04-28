@@ -1,0 +1,136 @@
+/* CSS page for index.html */
+
+#SKC {
+
+    margin-left: -40%;
+    margin-top: 10%;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    color: #0460a0;
+    font-weight: bold;
+    z-index: 2;
+
+
+}
+
+
+
+#Title1 {
+
+    margin-left: -40%;
+    margin-top: -5%;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+    background-color: #1D3557;
+
+}
+
+#Title2 {
+
+    margin-left: -40%;
+    margin-top: -5%;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    color: #0460a0;
+    font-weight: bold;
+    z-index: 2;
+
+
+}
+
+a:link {
+    text-decoration: none;
+
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00549E;
+}
+
+.row a.active {
+    text-decoration: none;
+    color: #154e76;
+}
+
+/* Using the Bootstrap tags */
+
+.col-sm-2 {
+
+    margin-top: 2%;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    z-index: 10;
+}
+
+.jumbotron {
+    font-family: 'Poppins', sans-serif;
+    left: auto;
+
+
+}
+
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden;
+}
+
+
+/* 
+This changes the position of the Line under the nav bar
+and pictures beside the title by using media tag. 
+This is because it wasn't working properly with Bootstrap.
+*/
+
+
+@media only screen and (min-width: 950px) {
+
+    .empty {
+        height: 5px;
+        background-color: black;
+        width: 80%;
+        margin-left: 20%;
+        margin-top: -2%;
+    }
+
+    .col-sm-5 {
+        float: right;
+        margin-top: 3%;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    .col-sm-5 {
+
+        margin-top: 5%;
+        float: inherit;
+
+
+    }
+
+    .empty {
+        height: 5px;
+        background-color: black;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+}

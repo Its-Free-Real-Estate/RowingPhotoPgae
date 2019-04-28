@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+}
+
+a:link {
+    text-decoration: none;
+
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00549E;
+}
+
+.row a.active {
+    text-decoration: none;
+    color: #154e76;
+}
+
+.SKClogo {
+    position: relative;
+    left: 30px;
+    top: 20px;
+
+}
+
+#Logo {
+    z-index: 3;
+
+}
+
+
+/* More examples of Bootstrap */
+
+.col-sm-2 {
+
+    top: 0px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+
+    z-index: 10;
+}
+
+#gallery {
+    margin-top: 5% !important;
+}
+
+/* 
+This changes the position of the Line under the nav bar
+by using the media tag. 
+This is because it wasn't working properly with Bootstrap.
+*/
+
+@media only screen and (min-width: 950px) {
+
+    .empty {
+        height: 5px;
+        background-color: black;
+        width: 80%;
+        margin-left: 20%;
+        margin-top: -2%;
+    }
+}
+
+    @media only screen and (max-width: 949px) {
+
+
+
+        .empty {
+            height: 5px;
+            background-color: black;
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+
+    }
